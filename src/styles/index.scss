@@ -1,0 +1,39 @@
+@import "./variables.scss";
+@import url("https://fonts.googleapis.com/css2?family=Merienda:wght@400;700&display=swap");
+
+// <RESET, GENERAL PARAMETERS>=====================================================
+@import "./_reset.scss";
+
+body {
+    height: 100%;
+    font-family: $fontFamily;
+    font-weight: $fontWeight;
+    color: $mainColor;
+    font-size: $fontSize;
+    background-color: $backgroundColor;
+}
+
+// <RESET, GENERAL PARAMETERS>======================================================
+
+// <SHELL>========================================================================
+.wrapper {
+    min-height: 100%;
+    overflow: clip;
+    display: flex;
+    flex-direction: column;
+}
+// <SHELL>========================================================================
+
+// <MAIN GRID>==================================================================
+[class*="_container"] {
+    padding: 0 15px;
+    max-width: $maxWidthContainer + px;
+    margin: 0 auto;
+    box-sizing: content-box;
+}
+// <MAIN GRID>==================================================================
+
+// <GLOBAL STYLES>================================================================
+
+
+// <GLOBAL STYLES>================================================================
